@@ -1,0 +1,4 @@
+# Optional CLI dependencies for run_audit.py
+# (The local bridge server `backend/server.py` and Chrome extension use Python stdlib only.)
+playwright>=1.55.0
+pillow>=10.0.0

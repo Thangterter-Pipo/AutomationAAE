@@ -1,0 +1,29 @@
+# Local runtime config & credentials (contains API keys & pairing tokens)
+.data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated audit outputs
+reports/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# Node / JS artifacts
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
